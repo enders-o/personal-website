@@ -15,3 +15,12 @@ p{
 a{
     color: #CAD2C5;
 }
+
+nav{
+    background-color: lightblue;
+    text-align: center;
+}
+
+a{
+    color: black;
+}
