@@ -24,3 +24,7 @@ nav{
 nav a {
     color: black ;
 }
+
+#home-header{
+    font-family: 'Montserrat', sans-serif;
+}
