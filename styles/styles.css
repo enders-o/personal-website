@@ -1,7 +1,7 @@
-/* https://coolors.co/palette/cad2c5-84a98c-52796f-354f52-2f3e46 */
 body{
     background-color: #E5E5DC;
-
+    display: grid;
+    grid-template-rows: 120px 1fr 45px;
 }
 
 h1, h2, p, a {
@@ -11,6 +11,12 @@ h1, h2, p, a {
 header{
     background-color: #A6CAD4;
     text-align: center;
+    grid-row: 1/2;
+}
+
+main{
+    grid-row: 2/3;
+    display: grid;
 }
 
 nav a {
@@ -24,4 +30,5 @@ nav a {
 footer{
     background-color: #A6CAD4;
     text-align: center;
+    grid-row: 3/4;
 }
