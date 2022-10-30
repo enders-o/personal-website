@@ -57,8 +57,7 @@ nav a {
 
 #home-header{
     font-family: 'Montserrat', sans-serif;
-    display:flex;
-    justify-content: center;
+    text-align: center;
 }
 
 footer{
