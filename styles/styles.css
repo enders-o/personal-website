@@ -1,6 +1,5 @@
 body{
     background-color: #E5E5DC;
-    height: 60vh;
     display: grid;
     grid-template-rows: 20% 70% 5%;
 }
