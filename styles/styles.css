@@ -84,4 +84,7 @@ footer{
         flex-direction: row;
         align-items: center;
     }
+    hr {
+        border: 1px solid black;
+    }
 }
