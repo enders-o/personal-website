@@ -66,6 +66,7 @@ footer{
     grid-row: 3/4;
 }
 
-#courses-body main ul li {
+#courses-body main ul {
     list-style-type: none;
+    padding-left: 0;
 }
