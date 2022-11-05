@@ -65,3 +65,7 @@ footer{
     text-align: center;
     grid-row: 3/4;
 }
+
+#courses-body main ul li {
+    list-style-type: none;
+}
