@@ -12,5 +12,11 @@ const courseList = [
         "name": "Scripting for IT"
     }
 ]
+let input;
+do {
+    input = prompt("Enter a 4-digit number:") 
+    input = Number(input)
+    console.log(isNaN(input))
+} while (isNaN(input) || input <= 1000 || input >= 9999);
 
 // console.log(courseList)
